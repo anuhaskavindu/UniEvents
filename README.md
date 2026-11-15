@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-# UniEvents
->>>>>>> 814aa42c415ec79f644b7e3eea9a2ce95c9e460c
 # UniEvents – Student Event Management App
 
 Student Name: R.A.K.Ranasinghe
@@ -88,10 +84,6 @@ The application uses React Native's AppState API to detect when the application 
 
 An event listener is used to monitor changes in the application state.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 814aa42c415ec79f644b7e3eea9a2ce95c9e460c
 ## 8. Project Demonstration Video
 
 Video Link: https://drive.google.com/file/d/14xLhwW8f5vqT04qxMxLRCmdN2PIQxTYe/view?usp=drive_link
@@ -111,10 +103,7 @@ UniEvents provides a simple and user-friendly platform for university students t
 
 This project demonstrates the use of React Native components, Expo Router navigation, shared state management, AppState API, and local notifications in mobile application development.
 
----
 
-<<<<<<< HEAD
-**Developed as part of the Mobile Application Development Assignment 01.**
-=======
-**Developed as part of the Mobile Application Development Assignment 01.**
->>>>>>> 814aa42c415ec79f644b7e3eea9a2ce95c9e460c
+
+
+
