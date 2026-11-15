@@ -1,56 +1,108 @@
-# Welcome to your Expo app 👋
+# UniEvents – Student Event Management App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Student Name: R.A.K.Ranasinghe
+Student ID: PS/2022/060  
 
-## Get started
+Course: Mobile Application Development  
+Assignment: Assignment 01
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 1. Introduction
 
-2. Start the app
+UniEvents is a mobile application developed using React Native and Expo. It is designed to help university students discover and explore university events easily.
 
-   ```bash
-   npx expo start
-   ```
+Students can view upcoming events, read event details, filter events by category, and save their favorite events.
 
-In the output, you'll find options to open the app in a
+The main purpose of this application is to provide a simple platform where students can find information about university events in one place.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 2. Main Features
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- View upcoming university events.
+- Browse all available events.
+- View detailed information about each event.
+- Add and remove favorite events.
+- View saved events on the Favorites screen.
+- Receive local notifications.
+- Detect when the application moves between background and foreground states.
 
-## Get a fresh project
+## 3. Application Screens
 
-When you're ready, run:
+The application contains five main screens.
 
-```bash
-npm run reset-project
-```
+### 3.1 Home Screen
+Displays a welcome message and a list of upcoming university events.
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+### 3.2 Events Screen
+Displays all available events. Students can filter events according to categories such as Technology, Education, Entertainment, and Sports.
 
-### Other setup steps
+### 3.3 Event Details Screen
+Displays detailed information about a selected event, including its title, date, time, location, and description.
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 3.4 Favorites Screen
+Displays events saved by the user. Users can also remove events from their favorites.
 
-## Learn more
+### 3.5 Profile Screen
+Displays basic student profile information.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 4. Technologies Used
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- React Native
+- JavaScript
+- Expo
+- Expo Router
+- React Hooks
+- React Native Components
+- expo-notifications
 
-## Join the community
+## 5. React Native Components Used
 
-Join our community of developers creating universal apps.
+| Component | Purpose |
+|---|---|
+| View | Organizing UI layouts |
+| Text | Displaying text |
+| Image | Displaying event images |
+| Pressable | Handling user interactions |
+| FlatList | Displaying event lists |
+| Modal | Displaying category filter options |
+| ScrollView | Scrolling through event details |
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 6. State Management
+
+The application uses React's useState hook and React Context API to manage interactive data.
+
+The FavoritesContext provides shared favorite event data across multiple screens.
+
+When a user adds an event to favorites, the updated data is immediately available on the Favorites screen.
+
+
+## 7. AppState Implementation
+
+[Complete this section after implementing the AppState API.]
+
+The application uses React Native's AppState API to detect when the application moves between background and foreground states.
+
+An event listener is used to monitor changes in the application state.
+
+## 8. Project Demonstration Video
+
+Video Link: https://drive.google.com/file/d/14xLhwW8f5vqT04qxMxLRCmdN2PIQxTYe/view?usp=drive_link
+
+The demonstration video includes:
+
+- Application overview
+- Navigation between screens
+- Viewing event details
+- Adding and removing favorite events
+- AppState functionality
+- Local notification functionality
+
+## 9. Conclusion
+
+UniEvents provides a simple and user-friendly platform for university students to discover and explore university events.
+
+This project demonstrates the use of React Native components, Expo Router navigation, shared state management, AppState API, and local notifications in mobile application development.
+
+---
+
+**Developed as part of the Mobile Application Development Assignment 01.**
